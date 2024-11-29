@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "rootDir": "./",
+    "moduleResolution": "Node",
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "include": ["api/**/*.ts"]
+}
