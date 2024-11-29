@@ -4,9 +4,9 @@ This is a Vercel lambda function to collect waitlist emails to store in a notion
 
 ## Get your Notion Keys
 
-To get your Notion keys, head over to the [integrations page](https://www.notion.so/profile/integrations) and create a new integration
+<img width="1436" alt="create integration" src="https://github.com/user-attachments/assets/74870f3b-d4e6-4e87-96f6-e97aa47097e2">
 
-**image here**
+To get your Notion keys, head over to the [integrations page](https://www.notion.so/profile/integrations) and create a new integration
 
 ## Duplicate template
 
@@ -16,7 +16,7 @@ Duplicate this template and head over [here](https://developers.notion.com/refer
 
 ## Connect integration
 
-**image here**
+<img width="1443" alt="connect integration" src="https://github.com/user-attachments/assets/4fcc4581-b554-4268-be19-d565471c34ff">
 
 Once duplicated, connect your database to the integration you created earlier. Read more [here](https://developers.notion.com/docs/create-a-notion-integration#give-your-integration-page-permissions)
 
