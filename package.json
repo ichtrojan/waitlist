@@ -1,0 +1,34 @@
+{
+  "name": "waitlist",
+  "version": "1.0.0",
+  "description": "Notion waitlist API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ichtrojan/waitlist.git"
+  },
+  "keywords": [
+    "waitlist",
+    "notion"
+  ],
+  "author": "Michael Trojan Okoh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ichtrojan/waitlist/issues"
+  },
+  "homepage": "https://github.com/ichtrojan/waitlist#readme",
+  "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "@vercel/node": "^2.10.3",
+    "disposable-email-domains": "^1.0.62",
+    "dotenv": "^16.4.5",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}
