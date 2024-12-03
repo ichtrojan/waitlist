@@ -5,6 +5,15 @@ const notion = new Client({auth: process.env.NOTION_API_KEY});
 const databaseId = process.env.NOTION_DATABASE_ID as string;
 
 export default async (req: VercelRequest, res: VercelResponse): Promise<void> => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+    if (req.method === 'OPTIONS') {
+        res.status(204).end();
+        return;
+    }
+    
     if (req.method !== 'POST') {
         res.status(405).json({message: 'Only POST requests are allowed'});
         return;
