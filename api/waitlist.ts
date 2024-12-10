@@ -13,9 +13,14 @@ export default async (req: VercelRequest, res: VercelResponse): Promise<void> =>
         res.status(204).end();
         return;
     }
-    
+
     if (req.method !== 'POST') {
         res.status(405).json({message: 'Only POST requests are allowed'});
+        return;
+    }
+
+    if (!req.body || typeof req.body !== 'object') {
+        res.status(400).json({ message: 'invalid or missing request body'});
         return;
     }
 
