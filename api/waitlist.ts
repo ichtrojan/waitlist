@@ -19,6 +19,11 @@ export default async (req: VercelRequest, res: VercelResponse): Promise<void> =>
         return;
     }
 
+    if (!req.body || typeof req.body !== 'object') {
+        res.status(400).json({ message: 'invalid or missing request body'});
+        return;
+    }
+
     const {email}: { email?: string } = req.body;
 
     if (!email) {
