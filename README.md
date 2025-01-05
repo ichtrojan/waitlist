@@ -25,5 +25,5 @@ Once duplicated, connect your database to the integration you created earlier. R
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/ichtrojan/waitlist)
 
 >**NOTE ⚠️** </br>
-> Don't forget to set you `NOTION_API_KEY` and `NOTION_DATABASE_ID` in your `.env` file when running locally 
+> Don't forget to set your `NOTION_API_KEY` and `NOTION_DATABASE_ID` in your `.env` file when running locally 
 > or in your project setting when running on vercel cloud
